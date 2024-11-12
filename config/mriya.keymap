@@ -36,18 +36,6 @@
         };
     };
 
-    behaviors {
-        lr: lr {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LR";
-            bindings = <&mo>;
-            #binding-cells = <2>;
-            quick-tap-ms = <200>;
-            tapping-term-ms = <200>;
-            flavor = "tap-preferred";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -98,10 +86,10 @@
 
         Black_Cat {
             bindings = <
-  &kp ESC    &kp PAUSE_BREAK  &kp HOME      &kp UP_ARROW    &kp END          &kp K_COFFEE    &kp PG_UP  &kp LESS_THAN         &kp KP_PLUS   &kp GREATER_THAN       &trans  &kp BSPC
-  &kp TAB    &kp K_APP        &kp LEFT      &kp DOWN_ARROW  &kp RIGHT        &pass           &kp PG_DN  &kp LEFT_PARENTHESIS  &kp ASTERISK  &kp RIGHT_PARENTHESIS  &trans  &kp CAPS
-  &kp LSHFT  &kp PRINTSCREEN  &kp C_VOL_DN  &kp C_MUTE      &kp C_VOLUME_UP  &kp INS         &kp EQUAL  &kp LEFT_BRACE        &kp MINUS     &kp RIGHT_BRACE        &trans  &kp RSHFT
-                              &kp LGUI      &kp LCTRL       &trans           &kp SPACE       &kp ENTER  &to 7                 &kp LALT      &kp DELETE
+  &kp ESC    &kp PAUSE_BREAK  &kp HOME      &kp UP_ARROW    &kp END          &kp C_AL_LOCK    &kp PG_UP  &kp LESS_THAN         &kp KP_PLUS   &kp GREATER_THAN       &trans  &kp BSPC
+  &kp TAB    &kp K_APP        &kp LEFT      &kp DOWN_ARROW  &kp RIGHT        &pass            &kp PG_DN  &kp LEFT_PARENTHESIS  &kp ASTERISK  &kp RIGHT_PARENTHESIS  &trans  &kp CAPS
+  &kp LSHFT  &kp PRINTSCREEN  &kp C_VOL_DN  &kp C_MUTE      &kp C_VOLUME_UP  &kp INS          &kp EQUAL  &kp LEFT_BRACE        &kp MINUS     &kp RIGHT_BRACE        &trans  &kp RSHFT
+                              &kp LGUI      &kp LCTRL       &trans           &kp SPACE        &kp ENTER  &to 7                 &kp LALT      &kp DELETE
             >;
         };
 
