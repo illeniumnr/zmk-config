@@ -56,7 +56,7 @@
   &kp ESC                      &kp Q  &kp W     &kp E             &kp R  &kp T        &kp Y      &kp U  &kp I         &kp O       &kp P     &kp BACKSPACE
   &kp TAB                      &kp A  &kp S     &kp D             &kp F  &kp G        &kp H      &kp J  &kp K         &kp L       &kp SEMI  &mt RCTRL SQT
   &mt LEFT_SHIFT LEFT_BRACKET  &kp Z  &kp X     &kp C             &kp V  &kp B        &kp N      &kp M  &kp COMMA     &kp DOT     &kp FSLH  &mt RIGHT_SHIFT RIGHT_BRACKET
-                                      &kp LGUI  &kp LEFT_CONTROL  &lr 5  &kp SPACE    &kp ENTER  &mo 6  &kp LEFT_ALT  &kp DELETE
+                                      &kp LGUI  &kp LEFT_CONTROL  &mo 5  &kp SPACE    &kp ENTER  &mo 6  &kp LEFT_ALT  &kp DELETE
             >;
         };
 
@@ -110,7 +110,7 @@
   &kp ESC    &kp N1           &kp N2       &kp N3     &kp N4      &kp N5            &kp N6     &kp N7         &kp N8         &kp N9                &kp N0                 &kp BSPC
   &kp TAB    &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT       &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK
   &kp LSHFT  &kp TILDE        &kp SLASH    &kp PLUS   &kp MINUS   &kp UNDERSCORE    &kp COLON  &kp SEMICOLON  &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RSHFT
-                              &kp LGUI     &kp LCTRL  &lr 7       &kp SPACE         &kp ENTER  &trans         &kp LALT       &kp DELETE
+                              &kp LGUI     &kp LCTRL  &mo 7       &kp SPACE         &kp ENTER  &trans         &kp LALT       &kp DELETE
             >;
         };
 
