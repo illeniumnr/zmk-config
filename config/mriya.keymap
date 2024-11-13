@@ -95,10 +95,10 @@
 
         CLR {
             bindings = <
-  &kp ESC    &kp N1           &kp N2       &kp N3     &kp N4      &kp N5            &kp N6     &kp N7         &kp N8         &kp N9                &kp N0                 &kp BSPC
-  &kp TAB    &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT       &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK
-  &kp LSHFT  &kp TILDE        &kp SLASH    &kp PLUS   &kp MINUS   &kp UNDERSCORE    &kp COLON  &kp SEMICOLON  &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RSHFT
-                              &kp LGUI     &kp LCTRL  &kp SPACE   &mo 7             &trans     &kp ENTER      &kp LALT       &kp DELETE
+  &kp ESC    &kp N1           &kp N2         &kp N3     &kp N4      &kp N5            &kp N6     &kp N7         &kp N8         &kp N9                &kp N0                 &kp BSPC
+  &kp TAB    &kp EXCLAMATION  &kp AT_SIGN    &kp POUND  &kp DOLLAR  &kp PERCENT       &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK
+  &kp LSHFT  &kp TILDE        &kp KP_DIVIDE  &kp PLUS   &kp MINUS   &kp UNDERSCORE    &kp COLON  &kp SEMICOLON  &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RSHFT
+                              &kp LGUI       &kp LCTRL  &kp SPACE   &mo 7             &trans     &kp ENTER      &kp LALT       &kp DELETE
             >;
         };
 
