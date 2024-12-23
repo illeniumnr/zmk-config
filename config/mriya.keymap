@@ -41,10 +41,10 @@
 
         default_layer {
             bindings = <
-  &kp ESC             &kp Q  &kp W     &kp E         &kp R             &kp T          &kp Y  &kp U             &kp I       &kp O         &kp P     &kp LEFT_BRACKET
-  &mt LEFT_SHIFT TAB  &kp A  &kp S     &kp D         &mt LEFT_SHIFT F  &kp G          &kp H  &mt LEFT_SHIFT J  &kp K       &kp L         &kp SEMI  &mt RCTRL SQT
-  &kp LCTRL           &kp Z  &kp X     &kp C         &kp V             &kp B          &kp N  &kp M             &kp COMMA   &kp DOT       &kp FSLH  &mt RIGHT_SHIFT RIGHT_BRACKET
-                             &kp LGUI  &kp LEFT_ALT  &kp SPACE         &lt 5 ENTER    &mo 6  &kp BACKSPACE     &kp DELETE  &kp CAPSLOCK
+  &kp ESC             &kp Q  &kp W     &kp E         &kp R                 &kp T          &kp Y  &kp U          &kp I       &kp O         &kp P     &kp LEFT_BRACKET
+  &mt LEFT_SHIFT TAB  &kp A  &kp S     &kp D         &kp F                 &kp G          &kp H  &kp J          &kp K       &kp L         &kp SEMI  &mt RCTRL SQT
+  &kp LCTRL           &kp Z  &kp X     &kp C         &kp V                 &kp B          &kp N  &kp M          &kp COMMA   &kp DOT       &kp FSLH  &mt RIGHT_SHIFT RIGHT_BRACKET
+                             &kp LGUI  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &lt 5 ENTER    &mo 6  &kp BACKSPACE  &kp DELETE  &kp CAPSLOCK
             >;
         };
 
@@ -86,7 +86,7 @@
 
         Black_Cat {
             bindings = <
-  &kp ESC    &kp PAUSE_BREAK  &kp HOME      &kp UP_ARROW    &kp END          &kp C_AL_LOCK    &kp PG_UP  &kp LESS_THAN         &kp KP_PLUS   &kp GREATER_THAN       &trans  &kp BSPC
+  &kp ESC    &kp PAUSE_BREAK  &kp HOME      &kp UP_ARROW    &kp END          &kp C_AL_LOCK    &kp PG_UP  &kp LESS_THAN         &kp PLUS      &kp GREATER_THAN       &trans  &kp BSPC
   &kp TAB    &kp K_APP        &kp LEFT      &kp DOWN_ARROW  &kp RIGHT        &pass            &kp PG_DN  &kp LEFT_PARENTHESIS  &kp ASTERISK  &kp RIGHT_PARENTHESIS  &trans  &kp CAPS
   &kp LSHFT  &kp PRINTSCREEN  &kp C_VOL_DN  &kp C_MUTE      &kp C_VOLUME_UP  &kp INS          &kp EQUAL  &kp LEFT_BRACE        &kp MINUS     &kp RIGHT_BRACE        &trans  &kp RSHFT
                               &kp LGUI      &kp LCTRL       &kp SPACE        &trans           &mo 7      &kp ENTER             &kp LALT      &kp DELETE
@@ -95,10 +95,10 @@
 
         CLR {
             bindings = <
-  &kp ESC    &kp N1           &kp N2         &kp N3     &kp N4      &kp N5            &kp N6     &kp N7         &kp N8         &kp N9                &kp N0                 &kp BSPC
-  &kp TAB    &kp EXCLAMATION  &kp AT_SIGN    &kp POUND  &kp DOLLAR  &kp PERCENT       &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK
-  &kp LSHFT  &kp TILDE        &kp KP_DIVIDE  &kp PLUS   &kp MINUS   &kp UNDERSCORE    &kp COLON  &kp SEMICOLON  &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RSHFT
-                              &kp LGUI       &kp LCTRL  &kp SPACE   &mo 7             &trans     &kp ENTER      &kp LALT       &kp DELETE
+  &kp ESC    &kp N1           &kp N2       &kp N3     &kp N4                &kp N5            &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &kp BSPC
+  &kp TAB    &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR            &kp PERCENT       &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CAPSLOCK
+  &kp LSHFT  &kp TILDE        &kp SLASH    &kp PIPE   &kp BACKSLASH         &kp UNDERSCORE    &kp EQUAL  &kp PLUS       &kp MINUS     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RSHFT
+                              &kp LGUI     &kp LCTRL  &mt LEFT_SHIFT SPACE  &mo 7             &trans     &kp ENTER      &kp LALT      &kp DELETE
             >;
         };
 
